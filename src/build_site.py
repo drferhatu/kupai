@@ -29,6 +29,14 @@ PLAYER_LABELS = {"chatgpt": "ChatGPT", "claude": "Claude", "gemini": "Gemini", "
 PLAYER_COLORS = {"chatgpt": "#10a37f", "claude": "#d97757", "gemini": "#4285f4", "ferhat": "#c89b1a"}
 PTS_COLOR = {3: "#16a34a", 2: "#2563eb", 1: "#d97706", 0: "#dc2626"}
 
+# Model kimliği -> kullanıcı dostu gösterim adı
+MODEL_DISPLAY = {
+    "gpt-4o": "GPT-4o",
+    "claude-sonnet-4-6": "Claude Sonnet 4.6",
+    "gemini-2.5-flash": "Gemini 2.5 Flash",
+    "gemini-2.5-flash-lite": "Gemini 2.5 Flash-Lite",
+}
+
 # Instagram kredisi (üst + alt). İki dilli: TR "@... tarafından hazırlanmıştır",
 # EN "Created by @...". İmza linki ve logo (inline SVG) sabit kalır.
 IG_SVG = (
@@ -109,6 +117,29 @@ def compute_leaderboard(data: dict):
     return rows
 
 
+def render_models(data: dict) -> str:
+    """Her oyuncunun kullandığı modeli listeler (Ferhat = insan)."""
+    models = data.get("models", {})
+    order = ["chatgpt", "claude", "gemini", "ferhat"]
+    rows = []
+    for p in order:
+        if p not in data["players"]:
+            continue
+        c = PLAYER_COLORS[p]
+        if p == "ferhat":
+            disp = t("İnsan (strateji)", "Human (strategy)")
+        else:
+            mid = models.get(p, "")
+            name = MODEL_DISPLAY.get(mid, mid)
+            disp = f'{esc(name)} <span class="mid">{esc(mid)}</span>' if mid else "—"
+        rows.append(
+            f'<div class="model-row"><span class="dot" style="background:{c}"></span>'
+            f'<span class="name">{PLAYER_LABELS[p]}</span>'
+            f'<span class="model">{disp}</span></div>'
+        )
+    return "".join(rows)
+
+
 def render_row(m: dict, players) -> str:
     htr, hen = m["home"], m["home_en"]
     atr, aen = m["away"], m["away_en"]
@@ -184,6 +215,7 @@ def render(data: dict) -> str:
         tagline=t("KupAI ile Dünya Kupası'nda yapay zekâ modellerine karşı yarışıyorum",
                   "Taking on every AI at predicting the 2026 World Cup"),
         credit=CREDIT,
+        models=render_models(data),
         th_match=t("Maç", "Match"), th_group=t("Grup", "Group"), th_result=t("Sonuç", "Result"),
         leaderboard="".join(lb_html),
         options=opts,
@@ -238,6 +270,13 @@ TEMPLATE = """<!DOCTYPE html>
   .pts small {{ font-weight:600; color:var(--muted); font-size:12px; }}
   .avg {{ color:var(--muted); font-size:13px; width:104px; text-align:right;
     font-variant-numeric:tabular-nums; }}
+  .model-row {{ display:flex; align-items:center; gap:12px; padding:14px 18px;
+    border-bottom:1px solid var(--line); }}
+  .model-row:last-child {{ border-bottom:0; }}
+  .model-row .name {{ font-weight:700; flex:1; }}
+  .model-row .model {{ color:var(--ink); font-size:13px; text-align:right; }}
+  .model-row .mid {{ color:var(--muted); font-size:11px;
+    font-family:ui-monospace,Menlo,Consolas,monospace; display:block; }}
   .rule {{ display:flex; align-items:center; gap:10px; padding:13px 18px;
     border-bottom:1px solid var(--line); }}
   .rule:last-child {{ border-bottom:0; }}
@@ -302,6 +341,9 @@ TEMPLATE = """<!DOCTYPE html>
       <span class="txt" data-tr="Yanlış galip" data-en="Wrong winner">Yanlış galip</span>
       <span class="p" data-tr="0 puan" data-en="0 pts">0 puan</span></div>
   </div>
+
+  <div class="section-title" data-tr="Kullanılan Modeller" data-en="Models Used">Kullanılan Modeller</div>
+  <div class="card">{models}</div>
 
   <div class="section-title" data-tr="Tahminler &amp; Sonuçlar" data-en="Predictions &amp; Results">Tahminler &amp; Sonuçlar</div>
   <div class="toolbar">
