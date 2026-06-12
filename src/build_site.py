@@ -127,7 +127,7 @@ def render_models(data: dict) -> str:
             continue
         c = PLAYER_COLORS[p]
         if p == "ferhat":
-            disp = t("İnsan (strateji)", "Human (strategy)")
+            disp = t("Strateji", "Strategy")
         else:
             mid = models.get(p, "")
             name = MODEL_DISPLAY.get(mid, mid)
