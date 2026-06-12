@@ -1,7 +1,8 @@
-"""matches.json'dan KupAI statik sitesini (açık tema) üretir -> site/index.html.
+"""matches.json'dan KupAI statik sitesini (açık tema, TR/EN iki dilli) üretir.
 
-Sıfır bağımlılık: yalnızca standart kütüphane. Puanları scoring.py ile hesaplar,
-liderlik tablosu + puanlama kuralı + grup filtreli tahmin tablosunu render eder.
+İki dil HTML'e gömülür; üstteki TR|EN düğmesi data-tr/data-en niteliklerini
+değiştirerek anında çevirir. Varsayılan dil TR; tercih localStorage'da saklanır.
+Sıfır bağımlılık: yalnızca standart kütüphane.
 """
 
 from __future__ import annotations
@@ -9,6 +10,8 @@ from __future__ import annotations
 import html
 import json
 import os
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 from scoring import outcome, score_prediction
 
@@ -16,15 +19,44 @@ HERE = os.path.dirname(__file__)
 DATA = os.path.join(HERE, "..", "data", "matches.json")
 OUT_DIR = os.path.join(HERE, "..", "site")
 
+TR_TZ = ZoneInfo("Europe/Istanbul")
+TR_MONTHS = ["", "Oca", "Şub", "Mar", "Nis", "May", "Haz",
+             "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
+EN_MONTHS = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
 PLAYER_LABELS = {"chatgpt": "ChatGPT", "claude": "Claude", "gemini": "Gemini", "ferhat": "Ferhat"}
 PLAYER_COLORS = {"chatgpt": "#10a37f", "claude": "#d97757", "gemini": "#4285f4", "ferhat": "#c89b1a"}
 PTS_COLOR = {3: "#16a34a", 2: "#2563eb", 1: "#d97706", 0: "#dc2626"}
-RANK_TR = {1: "1.", 2: "2.", 3: "3.", 4: "4."}
 
 
-def winner_label(home_team: str, away_team: str, h: int, a: int) -> str:
+def esc(s) -> str:
+    return html.escape(str(s), quote=True)
+
+
+def t(tr: str, en: str, cls: str = "") -> str:
+    """İki dilli inline metin; varsayılan TR gösterir."""
+    c = f' class="{cls}"' if cls else ""
+    return f'<span{c} data-tr="{esc(tr)}" data-en="{esc(en)}">{esc(tr)}</span>'
+
+
+def fmt_dates(utc):
+    """UTC ISO -> (TR gösterim, EN gösterim). İkisi de TR saat dilimi."""
+    if not utc:
+        return "", ""
+    dt = datetime.fromisoformat(utc.replace("Z", "+00:00")).astimezone(TR_TZ)
+    return (f"{dt.day} {TR_MONTHS[dt.month]} {dt:%H:%M}",
+            f"{dt.day} {EN_MONTHS[dt.month]} {dt:%H:%M}")
+
+
+def winner_label(home_tr, home_en, away_tr, away_en, h, a):
+    """(tr, en) galip etiketi."""
     o = outcome(h, a)
-    return {"H": home_team, "A": away_team, "D": "Beraberlik"}[o]
+    if o == "H":
+        return home_tr, home_en
+    if o == "A":
+        return away_tr, away_en
+    return "Beraberlik", "Draw"
 
 
 def compute_leaderboard(data: dict):
@@ -49,12 +81,16 @@ def compute_leaderboard(data: dict):
 
 
 def render_row(m: dict, players) -> str:
-    home, away = html.escape(m["home"]), html.escape(m["away"])
+    htr, hen = m["home"], m["home_en"]
+    atr, aen = m["away"], m["away_en"]
     finished = m["status"] == "finished" and m["result"]
+    dtr, den = fmt_dates(m.get("kickoff"))
+
     if finished:
         rh, ra = m["result"]["home"], m["result"]["away"]
+        wtr, wen = winner_label(htr, hen, atr, aen, rh, ra)
         res_html = (f'<div class="score">{rh}-{ra}</div>'
-                    f'<div class="sub">{html.escape(winner_label(home, away, rh, ra))}</div>')
+                    f'<div class="sub">{t(wtr, wen)}</div>')
     else:
         res_html = '<div class="score muted">—</div>'
 
@@ -65,21 +101,22 @@ def render_row(m: dict, players) -> str:
             cells.append('<td class="pred empty">—</td>')
             continue
         ph, pa = pred["home"], pred["away"]
-        wl = html.escape(winner_label(home, away, ph, pa))
+        wtr, wen = winner_label(htr, hen, atr, aen, ph, pa)
         badge = ""
         if finished:
             pts = score_prediction(ph, pa, rh, ra)
             badge = f'<span class="badge" style="background:{PTS_COLOR[pts]}">{pts}P</span>'
-        cells.append(f'<td class="pred"><div class="wl">{wl}</div>'
+        cells.append(f'<td class="pred"><div class="wl">{t(wtr, wen)}</div>'
                      f'<div class="sc">{ph}-{pa} {badge}</div></td>')
 
-    kick = html.escape(m.get("kickoff_tr") or "")
+    g = m["group"]
     return (
-        f'<tr data-group="{m["group"]}">'
-        f'<td class="match"><div class="teams"><span class="t">{home}</span>'
-        f'<span class="vs">—</span><span class="t">{away}</span></div>'
-        f'<div class="kick">{kick}</div></td>'
-        f'<td class="round">Grup {m["group"]}<span class="md">{m["matchday"]}. tur</span></td>'
+        f'<tr data-group="{g}">'
+        f'<td class="match"><div class="teams">{t(htr, hen, "t")}'
+        f'<span class="vs">—</span>{t(atr, aen, "t")}</div>'
+        f'<div class="kick">{t(dtr, den)}</div></td>'
+        f'<td class="round">{t("Grup " + g, "Group " + g)}'
+        f'<span class="md">{t(f"{m["matchday"]}. tur", f"Matchday {m["matchday"]}")}</span></td>'
         f'<td class="result">{res_html}</td>'
         f'{"".join(cells)}</tr>'
     )
@@ -89,40 +126,41 @@ def render(data: dict) -> str:
     players = data["players"]
     lb = compute_leaderboard(data)
 
-    # Liderlik tablosu kartları
     lb_html = []
     for i, r in enumerate(lb, start=1):
         c = PLAYER_COLORS[r["id"]]
         lb_html.append(
             f'<div class="lb-row">'
-            f'<span class="rank">{RANK_TR.get(i, str(i)+".")}</span>'
+            f'<span class="rank">{i}.</span>'
             f'<span class="dot" style="background:{c}"></span>'
             f'<span class="name">{PLAYER_LABELS[r["id"]]}</span>'
-            f'<span class="pts">{r["pts"]} <small>puan</small></span>'
-            f'<span class="avg">{r["avg"]:.2f} / maç</span>'
+            f'<span class="pts">{r["pts"]} <small>{t("puan", "pts")}</small></span>'
+            f'<span class="avg">{r["avg"]:.2f} {t("/ maç", "/ game")}</span>'
             f'</div>'
         )
 
-    # Grup filtresi seçenekleri
     groups = sorted({m["group"] for m in data["matches"]})
-    opts = '<option value="all">Tüm Gruplar</option>' + "".join(
-        f'<option value="{g}">Grup {g}</option>' for g in groups)
+    opts = (f'<option value="all" data-tr="Tüm Gruplar" data-en="All Groups">Tüm Gruplar</option>'
+            + "".join(f'<option value="{g}" data-tr="Grup {g}" data-en="Group {g}">Grup {g}</option>'
+                      for g in groups))
 
-    # Tablo başlık + satırlar (kronolojik: önce kickoff'a göre)
     head_players = "".join(f'<th>{PLAYER_LABELS[p]}</th>' for p in players)
     ordered = sorted(data["matches"], key=lambda m: (m.get("kickoff") or "9999", m["group"]))
     rows = "".join(render_row(m, players) for m in ordered)
 
+    total = len(data["matches"])
     played = sum(1 for m in data["matches"] if m["status"] == "finished")
 
     return TEMPLATE.format(
-        tagline="KupAI ile Dünya Kupası&#39;nda yapay zekâ modellerine karşı yarışıyorum",
+        tagline=t("KupAI ile Dünya Kupası'nda yapay zekâ modellerine karşı yarışıyorum",
+                  "Taking on every AI at predicting the 2026 World Cup"),
+        th_match=t("Maç", "Match"), th_group=t("Grup", "Group"), th_result=t("Sonuç", "Result"),
         leaderboard="".join(lb_html),
         options=opts,
         head_players=head_players,
         rows=rows,
-        total=len(data["matches"]),
-        played=played,
+        footer=t(f"KupAI · {played}/{total} maç oynandı · veriler her gün güncellenir",
+                 f"KupAI · {played}/{total} matches played · updated daily"),
     )
 
 
@@ -142,16 +180,19 @@ TEMPLATE = """<!DOCTYPE html>
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     line-height:1.5; }}
   .wrap {{ max-width:1040px; margin:0 auto; padding:24px 16px 64px; }}
-  header {{ text-align:center; padding:28px 0 8px; }}
+  .lang {{ display:flex; justify-content:flex-end; gap:4px; padding-top:4px; }}
+  .lang-btn {{ border:1px solid var(--line); background:var(--card); color:var(--muted);
+    font-size:12px; font-weight:700; padding:4px 10px; border-radius:8px; cursor:pointer; }}
+  .lang-btn.active {{ background:var(--ink); color:#fff; border-color:var(--ink); }}
+  header {{ text-align:center; padding:8px 0; }}
   .trophy {{ font-size:44px; }}
   h1 {{ font-size:40px; margin:6px 0 4px; letter-spacing:-1px; font-weight:800; }}
   h1 .ai {{ color:var(--accent); }}
-  .tag {{ color:var(--muted); font-size:15px; max-width:520px; margin:0 auto; }}
+  .tag {{ color:var(--muted); font-size:15px; max-width:540px; margin:0 auto; }}
   .section-title {{ font-size:13px; letter-spacing:2px; color:var(--muted);
     text-transform:uppercase; font-weight:700; margin:32px 4px 12px; }}
   .card {{ background:var(--card); border:1px solid var(--line); border-radius:14px;
     box-shadow:0 1px 3px rgba(20,30,50,.04); overflow:hidden; }}
-  /* Liderlik */
   .lb-row {{ display:flex; align-items:center; gap:12px; padding:16px 18px;
     border-bottom:1px solid var(--line); }}
   .lb-row:last-child {{ border-bottom:0; }}
@@ -160,16 +201,14 @@ TEMPLATE = """<!DOCTYPE html>
   .name {{ font-weight:700; font-size:17px; flex:1; }}
   .pts {{ font-weight:800; font-size:18px; }}
   .pts small {{ font-weight:600; color:var(--muted); font-size:12px; }}
-  .avg {{ color:var(--muted); font-size:13px; width:96px; text-align:right;
+  .avg {{ color:var(--muted); font-size:13px; width:104px; text-align:right;
     font-variant-numeric:tabular-nums; }}
-  /* Puanlama */
   .rule {{ display:flex; align-items:center; gap:10px; padding:13px 18px;
     border-bottom:1px solid var(--line); }}
   .rule:last-child {{ border-bottom:0; }}
   .rule .d {{ width:11px; height:11px; border-radius:50%; }}
   .rule .txt {{ flex:1; }}
   .rule .p {{ font-weight:800; }}
-  /* Tahmin tablosu */
   .toolbar {{ margin:0 4px 12px; }}
   select {{ font-size:15px; padding:9px 12px; border:1px solid var(--line);
     border-radius:10px; background:var(--card); color:var(--ink); }}
@@ -178,67 +217,70 @@ TEMPLATE = """<!DOCTYPE html>
   thead th {{ text-align:left; padding:12px 12px; color:var(--muted);
     font-size:11px; letter-spacing:1px; text-transform:uppercase;
     border-bottom:1px solid var(--line); white-space:nowrap; }}
-  tbody td {{ padding:11px 12px; border-bottom:1px solid var(--line);
-    vertical-align:middle; }}
+  tbody td {{ padding:11px 12px; border-bottom:1px solid var(--line); vertical-align:middle; }}
   tbody tr:hover {{ background:#fafbfc; }}
   td.match .t {{ font-weight:700; }}
   td.match .vs {{ color:var(--muted); margin:0 6px; }}
   td.match .kick {{ font-size:11px; color:var(--muted); margin-top:3px; }}
   td.round {{ color:var(--muted); white-space:nowrap; }}
   td.round .md {{ display:block; font-size:11px; opacity:.8; }}
-  td.result .score {{ font-weight:800; font-size:15px;
-    font-variant-numeric:tabular-nums; }}
+  td.result .score {{ font-weight:800; font-size:15px; font-variant-numeric:tabular-nums; }}
   td.result .score.muted {{ color:var(--line); }}
   td.result .sub {{ font-size:11px; color:var(--muted); }}
   td.pred {{ font-variant-numeric:tabular-nums; }}
   td.pred.empty {{ color:var(--line); text-align:center; }}
   td.pred .wl {{ font-weight:600; }}
   td.pred .sc {{ color:var(--muted); display:flex; align-items:center; gap:6px; }}
-  .badge {{ color:#fff; font-size:10px; font-weight:800; padding:1px 6px;
-    border-radius:6px; }}
+  .badge {{ color:#fff; font-size:10px; font-weight:800; padding:1px 6px; border-radius:6px; }}
   footer {{ text-align:center; color:var(--muted); font-size:12px; margin-top:36px; }}
-  @media (max-width:560px) {{
-    h1 {{ font-size:32px; }} .avg {{ display:none; }}
-  }}
+  @media (max-width:560px) {{ h1 {{ font-size:32px; }} .avg {{ display:none; }} }}
 </style>
 </head>
 <body>
 <div class="wrap">
+  <div class="lang">
+    <button class="lang-btn" data-lang="tr" onclick="setLang('tr')">TR</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
   <header>
     <div class="trophy">🏆</div>
     <h1>Kup<span class="ai">AI</span></h1>
     <p class="tag">{tagline}</p>
   </header>
 
-  <div class="section-title">Liderlik Tablosu</div>
+  <div class="section-title" data-tr="Liderlik Tablosu" data-en="Leaderboard">Liderlik Tablosu</div>
   <div class="card">{leaderboard}</div>
 
-  <div class="section-title">Puanlama</div>
+  <div class="section-title" data-tr="Puanlama" data-en="Scoring">Puanlama</div>
   <div class="card">
     <div class="rule"><span class="d" style="background:#16a34a"></span>
-      <span class="txt">Doğru galip + tam skor</span><span class="p">3 puan</span></div>
+      <span class="txt" data-tr="Doğru galip + tam skor" data-en="Correct winner + exact score">Doğru galip + tam skor</span>
+      <span class="p" data-tr="3 puan" data-en="3 pts">3 puan</span></div>
     <div class="rule"><span class="d" style="background:#2563eb"></span>
-      <span class="txt">Doğru galip + doğru gol farkı</span><span class="p">2 puan</span></div>
+      <span class="txt" data-tr="Doğru galip + doğru gol farkı" data-en="Correct winner + correct goal difference">Doğru galip + doğru gol farkı</span>
+      <span class="p" data-tr="2 puan" data-en="2 pts">2 puan</span></div>
     <div class="rule"><span class="d" style="background:#d97706"></span>
-      <span class="txt">Doğru galip (sadece)</span><span class="p">1 puan</span></div>
+      <span class="txt" data-tr="Doğru galip (sadece)" data-en="Correct winner only">Doğru galip (sadece)</span>
+      <span class="p" data-tr="1 puan" data-en="1 pt">1 puan</span></div>
     <div class="rule"><span class="d" style="background:#dc2626"></span>
-      <span class="txt">Yanlış galip</span><span class="p">0 puan</span></div>
+      <span class="txt" data-tr="Yanlış galip" data-en="Wrong winner">Yanlış galip</span>
+      <span class="p" data-tr="0 puan" data-en="0 pts">0 puan</span></div>
   </div>
 
-  <div class="section-title">Tahminler &amp; Sonuçlar</div>
+  <div class="section-title" data-tr="Tahminler &amp; Sonuçlar" data-en="Predictions &amp; Results">Tahminler &amp; Sonuçlar</div>
   <div class="toolbar">
     <select id="groupFilter" onchange="filterGroup(this.value)">{options}</select>
   </div>
   <div class="card table-scroll">
     <table>
       <thead><tr>
-        <th>Maç</th><th>Grup</th><th>Sonuç</th>{head_players}
+        <th>{th_match}</th><th>{th_group}</th><th>{th_result}</th>{head_players}
       </tr></thead>
       <tbody id="rows">{rows}</tbody>
     </table>
   </div>
 
-  <footer>KupAI · {played}/{total} maç oynandı · veriler her gün güncellenir</footer>
+  <footer>{footer}</footer>
 </div>
 <script>
   function filterGroup(g) {{
@@ -246,6 +288,22 @@ TEMPLATE = """<!DOCTYPE html>
       tr.style.display = (g === 'all' || tr.dataset.group === g) ? '' : 'none';
     }});
   }}
+  function setLang(lang) {{
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-tr]').forEach(function(el) {{
+      var v = el.getAttribute('data-' + lang);
+      if (v !== null) el.textContent = v;
+    }});
+    document.querySelectorAll('.lang-btn').forEach(function(b) {{
+      b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+    }});
+    try {{ localStorage.setItem('kupai_lang', lang); }} catch (e) {{}}
+  }}
+  (function() {{
+    var saved = 'tr';
+    try {{ saved = localStorage.getItem('kupai_lang') || 'tr'; }} catch (e) {{}}
+    setLang(saved);
+  }})();
 </script>
 </body>
 </html>
@@ -259,7 +317,7 @@ def main():
     out = os.path.join(OUT_DIR, "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(render(data))
-    print(f"site/index.html yazıldı ({len(data['matches'])} maç).")
+    print(f"site/index.html yazıldı ({len(data['matches'])} maç, TR/EN).")
 
 
 if __name__ == "__main__":
