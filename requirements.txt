@@ -1,0 +1,5 @@
+# Çekirdek (fixtures + site + scoring) yalnızca standart kütüphane kullanır;
+# bu paketler SADECE LLM tahmin motoru (predict.py) için gereklidir.
+anthropic>=0.40
+openai>=1.50
+google-genai>=0.3

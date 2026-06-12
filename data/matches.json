@@ -1,0 +1,1457 @@
+{
+  "tournament": "FIFA Dünya Kupası 2026",
+  "players": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "ferhat"
+  ],
+  "matches": [
+    {
+      "id": "A-MD1-1",
+      "group": "A",
+      "matchday": 1,
+      "home": "Meksika",
+      "away": "Güney Afrika",
+      "home_en": "Mexico",
+      "away_en": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 0
+      },
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "11 Haz 22:00",
+      "fd_id": 537327
+    },
+    {
+      "id": "A-MD1-2",
+      "group": "A",
+      "matchday": 1,
+      "home": "Güney Kore",
+      "away": "Çekya",
+      "home_en": "Korea Republic",
+      "away_en": "Czechia",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 1
+      },
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "12 Haz 05:00",
+      "fd_id": 537328
+    },
+    {
+      "id": "A-MD2-1",
+      "group": "A",
+      "matchday": 2,
+      "home": "Çekya",
+      "away": "Güney Afrika",
+      "home_en": "Czechia",
+      "away_en": "South Africa",
+      "kickoff": "2026-06-18T16:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "18 Haz 19:00",
+      "fd_id": 537329
+    },
+    {
+      "id": "A-MD2-2",
+      "group": "A",
+      "matchday": 2,
+      "home": "Meksika",
+      "away": "Güney Kore",
+      "home_en": "Mexico",
+      "away_en": "Korea Republic",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "19 Haz 04:00",
+      "fd_id": 537330
+    },
+    {
+      "id": "A-MD3-1",
+      "group": "A",
+      "matchday": 3,
+      "home": "Çekya",
+      "away": "Meksika",
+      "home_en": "Czechia",
+      "away_en": "Mexico",
+      "kickoff": "2026-06-25T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "25 Haz 04:00",
+      "fd_id": 537331
+    },
+    {
+      "id": "A-MD3-2",
+      "group": "A",
+      "matchday": 3,
+      "home": "Güney Afrika",
+      "away": "Güney Kore",
+      "home_en": "South Africa",
+      "away_en": "Korea Republic",
+      "kickoff": "2026-06-25T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "25 Haz 04:00",
+      "fd_id": 537332
+    },
+    {
+      "id": "B-MD1-1",
+      "group": "B",
+      "matchday": 1,
+      "home": "Kanada",
+      "away": "Bosna-Hersek",
+      "home_en": "Canada",
+      "away_en": "Bosnia and Herzegovina",
+      "kickoff": "2026-06-12T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "12 Haz 22:00",
+      "fd_id": 537333
+    },
+    {
+      "id": "B-MD1-2",
+      "group": "B",
+      "matchday": 1,
+      "home": "Katar",
+      "away": "İsviçre",
+      "home_en": "Qatar",
+      "away_en": "Switzerland",
+      "kickoff": "2026-06-13T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "13 Haz 22:00",
+      "fd_id": 537334
+    },
+    {
+      "id": "B-MD2-1",
+      "group": "B",
+      "matchday": 2,
+      "home": "İsviçre",
+      "away": "Bosna-Hersek",
+      "home_en": "Switzerland",
+      "away_en": "Bosnia and Herzegovina",
+      "kickoff": "2026-06-18T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "18 Haz 22:00",
+      "fd_id": 537335
+    },
+    {
+      "id": "B-MD2-2",
+      "group": "B",
+      "matchday": 2,
+      "home": "Kanada",
+      "away": "Katar",
+      "home_en": "Canada",
+      "away_en": "Qatar",
+      "kickoff": "2026-06-18T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "19 Haz 01:00",
+      "fd_id": 537336
+    },
+    {
+      "id": "B-MD3-1",
+      "group": "B",
+      "matchday": 3,
+      "home": "İsviçre",
+      "away": "Kanada",
+      "home_en": "Switzerland",
+      "away_en": "Canada",
+      "kickoff": "2026-06-24T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "24 Haz 22:00",
+      "fd_id": 537337
+    },
+    {
+      "id": "B-MD3-2",
+      "group": "B",
+      "matchday": 3,
+      "home": "Bosna-Hersek",
+      "away": "Katar",
+      "home_en": "Bosnia and Herzegovina",
+      "away_en": "Qatar",
+      "kickoff": "2026-06-24T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "24 Haz 22:00",
+      "fd_id": 537338
+    },
+    {
+      "id": "C-MD1-1",
+      "group": "C",
+      "matchday": 1,
+      "home": "Brezilya",
+      "away": "Fas",
+      "home_en": "Brazil",
+      "away_en": "Morocco",
+      "kickoff": "2026-06-13T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "14 Haz 01:00",
+      "fd_id": 537339
+    },
+    {
+      "id": "C-MD1-2",
+      "group": "C",
+      "matchday": 1,
+      "home": "Haiti",
+      "away": "İskoçya",
+      "home_en": "Haiti",
+      "away_en": "Scotland",
+      "kickoff": "2026-06-14T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "14 Haz 04:00",
+      "fd_id": 537340
+    },
+    {
+      "id": "C-MD2-1",
+      "group": "C",
+      "matchday": 2,
+      "home": "İskoçya",
+      "away": "Fas",
+      "home_en": "Scotland",
+      "away_en": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "20 Haz 01:00",
+      "fd_id": 537342
+    },
+    {
+      "id": "C-MD2-2",
+      "group": "C",
+      "matchday": 2,
+      "home": "Brezilya",
+      "away": "Haiti",
+      "home_en": "Brazil",
+      "away_en": "Haiti",
+      "kickoff": "2026-06-20T00:30:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "20 Haz 03:30",
+      "fd_id": 537341
+    },
+    {
+      "id": "C-MD3-1",
+      "group": "C",
+      "matchday": 3,
+      "home": "İskoçya",
+      "away": "Brezilya",
+      "home_en": "Scotland",
+      "away_en": "Brazil",
+      "kickoff": "2026-06-24T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "25 Haz 01:00",
+      "fd_id": 537343
+    },
+    {
+      "id": "C-MD3-2",
+      "group": "C",
+      "matchday": 3,
+      "home": "Fas",
+      "away": "Haiti",
+      "home_en": "Morocco",
+      "away_en": "Haiti",
+      "kickoff": "2026-06-24T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "25 Haz 01:00",
+      "fd_id": 537344
+    },
+    {
+      "id": "D-MD1-1",
+      "group": "D",
+      "matchday": 1,
+      "home": "ABD",
+      "away": "Paraguay",
+      "home_en": "USA",
+      "away_en": "Paraguay",
+      "kickoff": "2026-06-13T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "13 Haz 04:00",
+      "fd_id": 537345
+    },
+    {
+      "id": "D-MD1-2",
+      "group": "D",
+      "matchday": 1,
+      "home": "Avustralya",
+      "away": "Türkiye",
+      "home_en": "Australia",
+      "away_en": "Türkiye",
+      "kickoff": "2026-06-14T04:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "14 Haz 07:00",
+      "fd_id": 537346
+    },
+    {
+      "id": "D-MD2-1",
+      "group": "D",
+      "matchday": 2,
+      "home": "ABD",
+      "away": "Avustralya",
+      "home_en": "USA",
+      "away_en": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "19 Haz 22:00",
+      "fd_id": 537348
+    },
+    {
+      "id": "D-MD2-2",
+      "group": "D",
+      "matchday": 2,
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "home_en": "Türkiye",
+      "away_en": "Paraguay",
+      "kickoff": "2026-06-20T03:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "20 Haz 06:00",
+      "fd_id": 537347
+    },
+    {
+      "id": "D-MD3-1",
+      "group": "D",
+      "matchday": 3,
+      "home": "Türkiye",
+      "away": "ABD",
+      "home_en": "Türkiye",
+      "away_en": "USA",
+      "kickoff": "2026-06-26T02:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "26 Haz 05:00",
+      "fd_id": 537349
+    },
+    {
+      "id": "D-MD3-2",
+      "group": "D",
+      "matchday": 3,
+      "home": "Paraguay",
+      "away": "Avustralya",
+      "home_en": "Paraguay",
+      "away_en": "Australia",
+      "kickoff": "2026-06-26T02:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "26 Haz 05:00",
+      "fd_id": 537350
+    },
+    {
+      "id": "E-MD1-1",
+      "group": "E",
+      "matchday": 1,
+      "home": "Almanya",
+      "away": "Curaçao",
+      "home_en": "Germany",
+      "away_en": "Curaçao",
+      "kickoff": "2026-06-14T17:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "14 Haz 20:00",
+      "fd_id": 537351
+    },
+    {
+      "id": "E-MD1-2",
+      "group": "E",
+      "matchday": 1,
+      "home": "Fildişi Sahili",
+      "away": "Ekvador",
+      "home_en": "Côte d'Ivoire",
+      "away_en": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "15 Haz 02:00",
+      "fd_id": 537352
+    },
+    {
+      "id": "E-MD2-1",
+      "group": "E",
+      "matchday": 2,
+      "home": "Almanya",
+      "away": "Fildişi Sahili",
+      "home_en": "Germany",
+      "away_en": "Côte d'Ivoire",
+      "kickoff": "2026-06-20T20:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "20 Haz 23:00",
+      "fd_id": 537353
+    },
+    {
+      "id": "E-MD2-2",
+      "group": "E",
+      "matchday": 2,
+      "home": "Ekvador",
+      "away": "Curaçao",
+      "home_en": "Ecuador",
+      "away_en": "Curaçao",
+      "kickoff": "2026-06-21T00:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "21 Haz 03:00",
+      "fd_id": 537354
+    },
+    {
+      "id": "E-MD3-1",
+      "group": "E",
+      "matchday": 3,
+      "home": "Curaçao",
+      "away": "Fildişi Sahili",
+      "home_en": "Curaçao",
+      "away_en": "Côte d'Ivoire",
+      "kickoff": "2026-06-25T20:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "25 Haz 23:00",
+      "fd_id": 537356
+    },
+    {
+      "id": "E-MD3-2",
+      "group": "E",
+      "matchday": 3,
+      "home": "Ekvador",
+      "away": "Almanya",
+      "home_en": "Ecuador",
+      "away_en": "Germany",
+      "kickoff": "2026-06-25T20:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "25 Haz 23:00",
+      "fd_id": 537355
+    },
+    {
+      "id": "F-MD1-1",
+      "group": "F",
+      "matchday": 1,
+      "home": "Hollanda",
+      "away": "Japonya",
+      "home_en": "Netherlands",
+      "away_en": "Japan",
+      "kickoff": "2026-06-14T20:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "14 Haz 23:00",
+      "fd_id": 537357
+    },
+    {
+      "id": "F-MD1-2",
+      "group": "F",
+      "matchday": 1,
+      "home": "İsveç",
+      "away": "Tunus",
+      "home_en": "Sweden",
+      "away_en": "Tunisia",
+      "kickoff": "2026-06-15T02:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "15 Haz 05:00",
+      "fd_id": 537358
+    },
+    {
+      "id": "F-MD2-1",
+      "group": "F",
+      "matchday": 2,
+      "home": "Hollanda",
+      "away": "İsveç",
+      "home_en": "Netherlands",
+      "away_en": "Sweden",
+      "kickoff": "2026-06-20T17:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "20 Haz 20:00",
+      "fd_id": 537359
+    },
+    {
+      "id": "F-MD2-2",
+      "group": "F",
+      "matchday": 2,
+      "home": "Tunus",
+      "away": "Japonya",
+      "home_en": "Tunisia",
+      "away_en": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "21 Haz 07:00",
+      "fd_id": 537360
+    },
+    {
+      "id": "F-MD3-1",
+      "group": "F",
+      "matchday": 3,
+      "home": "Japonya",
+      "away": "İsveç",
+      "home_en": "Japan",
+      "away_en": "Sweden",
+      "kickoff": "2026-06-25T23:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "26 Haz 02:00",
+      "fd_id": 537362
+    },
+    {
+      "id": "F-MD3-2",
+      "group": "F",
+      "matchday": 3,
+      "home": "Tunus",
+      "away": "Hollanda",
+      "home_en": "Tunisia",
+      "away_en": "Netherlands",
+      "kickoff": "2026-06-25T23:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "26 Haz 02:00",
+      "fd_id": 537361
+    },
+    {
+      "id": "G-MD1-1",
+      "group": "G",
+      "matchday": 1,
+      "home": "Belçika",
+      "away": "Mısır",
+      "home_en": "Belgium",
+      "away_en": "Egypt",
+      "kickoff": "2026-06-15T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "15 Haz 22:00",
+      "fd_id": 537363
+    },
+    {
+      "id": "G-MD1-2",
+      "group": "G",
+      "matchday": 1,
+      "home": "İran",
+      "away": "Yeni Zelanda",
+      "home_en": "IR Iran",
+      "away_en": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "16 Haz 04:00",
+      "fd_id": 537364
+    },
+    {
+      "id": "G-MD2-1",
+      "group": "G",
+      "matchday": 2,
+      "home": "Belçika",
+      "away": "İran",
+      "home_en": "Belgium",
+      "away_en": "IR Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "21 Haz 22:00",
+      "fd_id": 537365
+    },
+    {
+      "id": "G-MD2-2",
+      "group": "G",
+      "matchday": 2,
+      "home": "Yeni Zelanda",
+      "away": "Mısır",
+      "home_en": "New Zealand",
+      "away_en": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "22 Haz 04:00",
+      "fd_id": 537366
+    },
+    {
+      "id": "G-MD3-1",
+      "group": "G",
+      "matchday": 3,
+      "home": "Mısır",
+      "away": "İran",
+      "home_en": "Egypt",
+      "away_en": "IR Iran",
+      "kickoff": "2026-06-27T03:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "27 Haz 06:00",
+      "fd_id": 537368
+    },
+    {
+      "id": "G-MD3-2",
+      "group": "G",
+      "matchday": 3,
+      "home": "Yeni Zelanda",
+      "away": "Belçika",
+      "home_en": "New Zealand",
+      "away_en": "Belgium",
+      "kickoff": "2026-06-27T03:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "27 Haz 06:00",
+      "fd_id": 537367
+    },
+    {
+      "id": "H-MD1-1",
+      "group": "H",
+      "matchday": 1,
+      "home": "İspanya",
+      "away": "Yeşil Burun",
+      "home_en": "Spain",
+      "away_en": "Cabo Verde",
+      "kickoff": "2026-06-15T16:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "15 Haz 19:00",
+      "fd_id": 537369
+    },
+    {
+      "id": "H-MD1-2",
+      "group": "H",
+      "matchday": 1,
+      "home": "Suudi Arabistan",
+      "away": "Uruguay",
+      "home_en": "Saudi Arabia",
+      "away_en": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "16 Haz 01:00",
+      "fd_id": 537370
+    },
+    {
+      "id": "H-MD2-1",
+      "group": "H",
+      "matchday": 2,
+      "home": "İspanya",
+      "away": "Suudi Arabistan",
+      "home_en": "Spain",
+      "away_en": "Saudi Arabia",
+      "kickoff": "2026-06-21T16:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "21 Haz 19:00",
+      "fd_id": 537371
+    },
+    {
+      "id": "H-MD2-2",
+      "group": "H",
+      "matchday": 2,
+      "home": "Uruguay",
+      "away": "Yeşil Burun",
+      "home_en": "Uruguay",
+      "away_en": "Cabo Verde",
+      "kickoff": "2026-06-21T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "22 Haz 01:00",
+      "fd_id": 537372
+    },
+    {
+      "id": "H-MD3-1",
+      "group": "H",
+      "matchday": 3,
+      "home": "Yeşil Burun",
+      "away": "Suudi Arabistan",
+      "home_en": "Cabo Verde",
+      "away_en": "Saudi Arabia",
+      "kickoff": "2026-06-27T00:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "27 Haz 03:00",
+      "fd_id": 537374
+    },
+    {
+      "id": "H-MD3-2",
+      "group": "H",
+      "matchday": 3,
+      "home": "Uruguay",
+      "away": "İspanya",
+      "home_en": "Uruguay",
+      "away_en": "Spain",
+      "kickoff": "2026-06-27T00:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "27 Haz 03:00",
+      "fd_id": 537373
+    },
+    {
+      "id": "I-MD1-1",
+      "group": "I",
+      "matchday": 1,
+      "home": "Fransa",
+      "away": "Senegal",
+      "home_en": "France",
+      "away_en": "Senegal",
+      "kickoff": "2026-06-16T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "16 Haz 22:00",
+      "fd_id": 537391
+    },
+    {
+      "id": "I-MD1-2",
+      "group": "I",
+      "matchday": 1,
+      "home": "Irak",
+      "away": "Norveç",
+      "home_en": "Iraq",
+      "away_en": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "17 Haz 01:00",
+      "fd_id": 537392
+    },
+    {
+      "id": "I-MD2-1",
+      "group": "I",
+      "matchday": 2,
+      "home": "Fransa",
+      "away": "Irak",
+      "home_en": "France",
+      "away_en": "Iraq",
+      "kickoff": "2026-06-22T21:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "23 Haz 00:00",
+      "fd_id": 537393
+    },
+    {
+      "id": "I-MD2-2",
+      "group": "I",
+      "matchday": 2,
+      "home": "Norveç",
+      "away": "Senegal",
+      "home_en": "Norway",
+      "away_en": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "23 Haz 03:00",
+      "fd_id": 537394
+    },
+    {
+      "id": "I-MD3-1",
+      "group": "I",
+      "matchday": 3,
+      "home": "Norveç",
+      "away": "Fransa",
+      "home_en": "Norway",
+      "away_en": "France",
+      "kickoff": "2026-06-26T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "26 Haz 22:00",
+      "fd_id": 537395
+    },
+    {
+      "id": "I-MD3-2",
+      "group": "I",
+      "matchday": 3,
+      "home": "Senegal",
+      "away": "Irak",
+      "home_en": "Senegal",
+      "away_en": "Iraq",
+      "kickoff": "2026-06-26T19:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "26 Haz 22:00",
+      "fd_id": 537396
+    },
+    {
+      "id": "J-MD1-1",
+      "group": "J",
+      "matchday": 1,
+      "home": "Arjantin",
+      "away": "Cezayir",
+      "home_en": "Argentina",
+      "away_en": "Algeria",
+      "kickoff": "2026-06-17T01:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "17 Haz 04:00",
+      "fd_id": 537397
+    },
+    {
+      "id": "J-MD1-2",
+      "group": "J",
+      "matchday": 1,
+      "home": "Avusturya",
+      "away": "Ürdün",
+      "home_en": "Austria",
+      "away_en": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "17 Haz 07:00",
+      "fd_id": 537398
+    },
+    {
+      "id": "J-MD2-1",
+      "group": "J",
+      "matchday": 2,
+      "home": "Arjantin",
+      "away": "Avusturya",
+      "home_en": "Argentina",
+      "away_en": "Austria",
+      "kickoff": "2026-06-22T17:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "22 Haz 20:00",
+      "fd_id": 537399
+    },
+    {
+      "id": "J-MD2-2",
+      "group": "J",
+      "matchday": 2,
+      "home": "Ürdün",
+      "away": "Cezayir",
+      "home_en": "Jordan",
+      "away_en": "Algeria",
+      "kickoff": "2026-06-23T03:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "23 Haz 06:00",
+      "fd_id": 537400
+    },
+    {
+      "id": "J-MD3-1",
+      "group": "J",
+      "matchday": 3,
+      "home": "Cezayir",
+      "away": "Avusturya",
+      "home_en": "Algeria",
+      "away_en": "Austria",
+      "kickoff": "2026-06-28T02:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "28 Haz 05:00",
+      "fd_id": 537402
+    },
+    {
+      "id": "J-MD3-2",
+      "group": "J",
+      "matchday": 3,
+      "home": "Ürdün",
+      "away": "Arjantin",
+      "home_en": "Jordan",
+      "away_en": "Argentina",
+      "kickoff": "2026-06-28T02:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "28 Haz 05:00",
+      "fd_id": 537401
+    },
+    {
+      "id": "K-MD1-1",
+      "group": "K",
+      "matchday": 1,
+      "home": "Portekiz",
+      "away": "DR Kongo",
+      "home_en": "Portugal",
+      "away_en": "DR Congo",
+      "kickoff": "2026-06-17T17:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "17 Haz 20:00",
+      "fd_id": 537403
+    },
+    {
+      "id": "K-MD1-2",
+      "group": "K",
+      "matchday": 1,
+      "home": "Özbekistan",
+      "away": "Kolombiya",
+      "home_en": "Uzbekistan",
+      "away_en": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "18 Haz 05:00",
+      "fd_id": 537404
+    },
+    {
+      "id": "K-MD2-1",
+      "group": "K",
+      "matchday": 2,
+      "home": "Portekiz",
+      "away": "Özbekistan",
+      "home_en": "Portugal",
+      "away_en": "Uzbekistan",
+      "kickoff": "2026-06-23T17:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "23 Haz 20:00",
+      "fd_id": 537405
+    },
+    {
+      "id": "K-MD2-2",
+      "group": "K",
+      "matchday": 2,
+      "home": "Kolombiya",
+      "away": "DR Kongo",
+      "home_en": "Colombia",
+      "away_en": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "24 Haz 05:00",
+      "fd_id": 537406
+    },
+    {
+      "id": "K-MD3-1",
+      "group": "K",
+      "matchday": 3,
+      "home": "Kolombiya",
+      "away": "Portekiz",
+      "home_en": "Colombia",
+      "away_en": "Portugal",
+      "kickoff": "2026-06-27T23:30:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "28 Haz 02:30",
+      "fd_id": 537407
+    },
+    {
+      "id": "K-MD3-2",
+      "group": "K",
+      "matchday": 3,
+      "home": "DR Kongo",
+      "away": "Özbekistan",
+      "home_en": "DR Congo",
+      "away_en": "Uzbekistan",
+      "kickoff": "2026-06-27T23:30:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "28 Haz 02:30",
+      "fd_id": 537408
+    },
+    {
+      "id": "L-MD1-1",
+      "group": "L",
+      "matchday": 1,
+      "home": "İngiltere",
+      "away": "Hırvatistan",
+      "home_en": "England",
+      "away_en": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "17 Haz 23:00",
+      "fd_id": 537409
+    },
+    {
+      "id": "L-MD1-2",
+      "group": "L",
+      "matchday": 1,
+      "home": "Gana",
+      "away": "Panama",
+      "home_en": "Ghana",
+      "away_en": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "18 Haz 02:00",
+      "fd_id": 537410
+    },
+    {
+      "id": "L-MD2-1",
+      "group": "L",
+      "matchday": 2,
+      "home": "İngiltere",
+      "away": "Gana",
+      "home_en": "England",
+      "away_en": "Ghana",
+      "kickoff": "2026-06-23T20:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "23 Haz 23:00",
+      "fd_id": 537411
+    },
+    {
+      "id": "L-MD2-2",
+      "group": "L",
+      "matchday": 2,
+      "home": "Panama",
+      "away": "Hırvatistan",
+      "home_en": "Panama",
+      "away_en": "Croatia",
+      "kickoff": "2026-06-23T23:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "24 Haz 02:00",
+      "fd_id": 537412
+    },
+    {
+      "id": "L-MD3-1",
+      "group": "L",
+      "matchday": 3,
+      "home": "Panama",
+      "away": "İngiltere",
+      "home_en": "Panama",
+      "away_en": "England",
+      "kickoff": "2026-06-27T21:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "28 Haz 00:00",
+      "fd_id": 537413
+    },
+    {
+      "id": "L-MD3-2",
+      "group": "L",
+      "matchday": 3,
+      "home": "Hırvatistan",
+      "away": "Gana",
+      "home_en": "Croatia",
+      "away_en": "Ghana",
+      "kickoff": "2026-06-27T21:00:00Z",
+      "status": "scheduled",
+      "result": null,
+      "predictions": {
+        "chatgpt": null,
+        "claude": null,
+        "gemini": null,
+        "ferhat": null
+      },
+      "kickoff_tr": "28 Haz 00:00",
+      "fd_id": 537414
+    }
+  ]
+}

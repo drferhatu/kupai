@@ -1,0 +1,21 @@
+# Secrets — NEVER commit
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build output / caches
+/site/
+data/cache/
+*.log
+
+# OS
+.DS_Store
+
+# Local Claude settings
+.claude/
