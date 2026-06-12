@@ -65,10 +65,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "18 Haz 19:00",
       "fd_id": 537329
@@ -85,10 +97,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "19 Haz 04:00",
       "fd_id": 537330
@@ -105,10 +129,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 1,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 2
+        }
       },
       "kickoff_tr": "25 Haz 04:00",
       "fd_id": 537331
@@ -125,10 +161,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 1,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 2
+        }
       },
       "kickoff_tr": "25 Haz 04:00",
       "fd_id": 537332
@@ -145,10 +193,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "12 Haz 22:00",
       "fd_id": 537333
@@ -165,10 +225,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "13 Haz 22:00",
       "fd_id": 537334
@@ -185,10 +257,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "18 Haz 22:00",
       "fd_id": 537335
@@ -205,10 +289,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "19 Haz 01:00",
       "fd_id": 537336
@@ -225,10 +321,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "24 Haz 22:00",
       "fd_id": 537337
@@ -245,10 +353,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "24 Haz 22:00",
       "fd_id": 537338
@@ -265,10 +385,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "14 Haz 01:00",
       "fd_id": 537339
@@ -285,10 +417,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 0,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "14 Haz 04:00",
       "fd_id": 537340
@@ -305,10 +449,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "20 Haz 01:00",
       "fd_id": 537342
@@ -325,10 +481,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 4,
+          "away": 0
+        },
+        "claude": {
+          "home": 5,
+          "away": 0
+        },
+        "gemini": {
+          "home": 4,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "20 Haz 03:30",
       "fd_id": 537341
@@ -345,10 +513,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 3
+        },
+        "claude": {
+          "home": 0,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 2
+        }
       },
       "kickoff_tr": "25 Haz 01:00",
       "fd_id": 537343
@@ -365,10 +545,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 0
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "25 Haz 01:00",
       "fd_id": 537344
@@ -385,10 +577,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "13 Haz 04:00",
       "fd_id": 537345
@@ -405,10 +609,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "14 Haz 07:00",
       "fd_id": 537346
@@ -425,10 +641,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "19 Haz 22:00",
       "fd_id": 537348
@@ -445,10 +673,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 1,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "20 Haz 06:00",
       "fd_id": 537347
@@ -465,10 +705,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "26 Haz 05:00",
       "fd_id": 537349
@@ -485,10 +737,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 2
+        }
       },
       "kickoff_tr": "26 Haz 05:00",
       "fd_id": 537350
@@ -505,10 +769,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 4,
+          "away": 0
+        },
+        "claude": {
+          "home": 5,
+          "away": 0
+        },
+        "gemini": {
+          "home": 5,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "14 Haz 20:00",
       "fd_id": 537351
@@ -525,10 +801,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "15 Haz 02:00",
       "fd_id": 537352
@@ -545,10 +833,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 1
+        },
+        "claude": {
+          "home": 3,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "20 Haz 23:00",
       "fd_id": 537353
@@ -565,10 +865,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 0
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "21 Haz 03:00",
       "fd_id": 537354
@@ -585,10 +897,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 0,
+          "away": 2
+        },
+        "claude": {
+          "home": 0,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 3
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 2
+        }
       },
       "kickoff_tr": "25 Haz 23:00",
       "fd_id": 537356
@@ -605,10 +929,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 3
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 0,
+          "away": 3
+        }
       },
       "kickoff_tr": "25 Haz 23:00",
       "fd_id": 537355
@@ -625,10 +961,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "14 Haz 23:00",
       "fd_id": 537357
@@ -645,10 +993,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "15 Haz 05:00",
       "fd_id": 537358
@@ -665,10 +1025,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "20 Haz 20:00",
       "fd_id": 537359
@@ -685,10 +1057,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "21 Haz 07:00",
       "fd_id": 537360
@@ -705,10 +1089,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "26 Haz 02:00",
       "fd_id": 537362
@@ -725,10 +1121,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "26 Haz 02:00",
       "fd_id": 537361
@@ -745,10 +1153,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "15 Haz 22:00",
       "fd_id": 537363
@@ -765,10 +1185,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "16 Haz 04:00",
       "fd_id": 537364
@@ -785,10 +1217,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "21 Haz 22:00",
       "fd_id": 537365
@@ -805,10 +1249,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 1
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "22 Haz 04:00",
       "fd_id": 537366
@@ -825,10 +1281,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 2
+        }
       },
       "kickoff_tr": "27 Haz 06:00",
       "fd_id": 537368
@@ -845,10 +1313,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 0,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 3
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "27 Haz 06:00",
       "fd_id": 537367
@@ -865,10 +1345,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 0
+        },
+        "claude": {
+          "home": 4,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "15 Haz 19:00",
       "fd_id": 537369
@@ -885,10 +1377,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 1,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "16 Haz 01:00",
       "fd_id": 537370
@@ -905,10 +1409,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 0
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "21 Haz 19:00",
       "fd_id": 537371
@@ -925,10 +1441,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 0
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "22 Haz 01:00",
       "fd_id": 537372
@@ -945,10 +1473,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "27 Haz 03:00",
       "fd_id": 537374
@@ -965,10 +1505,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "27 Haz 03:00",
       "fd_id": 537373
@@ -985,10 +1537,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "16 Haz 22:00",
       "fd_id": 537391
@@ -1005,10 +1569,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 1,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "17 Haz 01:00",
       "fd_id": 537392
@@ -1025,10 +1601,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 0
+        },
+        "claude": {
+          "home": 4,
+          "away": 0
+        },
+        "gemini": {
+          "home": 4,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "23 Haz 00:00",
       "fd_id": 537393
@@ -1045,10 +1633,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "23 Haz 03:00",
       "fd_id": 537394
@@ -1065,10 +1665,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "26 Haz 22:00",
       "fd_id": 537395
@@ -1085,10 +1697,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 0
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "26 Haz 22:00",
       "fd_id": 537396
@@ -1105,10 +1729,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 1
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "17 Haz 04:00",
       "fd_id": 537397
@@ -1125,10 +1761,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 0
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "17 Haz 07:00",
       "fd_id": 537398
@@ -1145,10 +1793,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 1
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "22 Haz 20:00",
       "fd_id": 537399
@@ -1165,10 +1825,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "23 Haz 06:00",
       "fd_id": 537400
@@ -1185,10 +1857,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 1,
+          "away": 1
+        },
+        "gemini": {
+          "home": 1,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 2
+        }
       },
       "kickoff_tr": "28 Haz 05:00",
       "fd_id": 537402
@@ -1205,10 +1889,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 0,
+          "away": 3
+        },
+        "claude": {
+          "home": 0,
+          "away": 3
+        },
+        "gemini": {
+          "home": 0,
+          "away": 3
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 2
+        }
       },
       "kickoff_tr": "28 Haz 05:00",
       "fd_id": 537401
@@ -1225,10 +1921,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 1
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "17 Haz 20:00",
       "fd_id": 537403
@@ -1245,10 +1953,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "18 Haz 05:00",
       "fd_id": 537404
@@ -1265,10 +1985,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 3,
+          "away": 1
+        },
+        "claude": {
+          "home": 4,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "23 Haz 20:00",
       "fd_id": 537405
@@ -1285,10 +2017,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "24 Haz 05:00",
       "fd_id": 537406
@@ -1305,10 +2049,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 1,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "28 Haz 02:30",
       "fd_id": 537407
@@ -1325,10 +2081,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "28 Haz 02:30",
       "fd_id": 537408
@@ -1345,10 +2113,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "17 Haz 23:00",
       "fd_id": 537409
@@ -1365,10 +2145,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 0
+        },
+        "gemini": {
+          "home": 2,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "18 Haz 02:00",
       "fd_id": 537410
@@ -1385,10 +2177,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 0
+        },
+        "claude": {
+          "home": 3,
+          "away": 0
+        },
+        "gemini": {
+          "home": 3,
+          "away": 0
+        },
+        "ferhat": {
+          "home": 2,
+          "away": 1
+        }
       },
       "kickoff_tr": "23 Haz 23:00",
       "fd_id": 537411
@@ -1405,10 +2209,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 1,
+          "away": 2
+        },
+        "claude": {
+          "home": 1,
+          "away": 2
+        },
+        "gemini": {
+          "home": 0,
+          "away": 2
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 3
+        }
       },
       "kickoff_tr": "24 Haz 02:00",
       "fd_id": 537412
@@ -1425,10 +2241,22 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 0,
+          "away": 3
+        },
+        "claude": {
+          "home": 0,
+          "away": 3
+        },
+        "gemini": {
+          "home": 0,
+          "away": 4
+        },
+        "ferhat": {
+          "home": 1,
+          "away": 2
+        }
       },
       "kickoff_tr": "28 Haz 00:00",
       "fd_id": 537413
@@ -1445,13 +2273,30 @@
       "status": "scheduled",
       "result": null,
       "predictions": {
-        "chatgpt": null,
-        "claude": null,
-        "gemini": null,
-        "ferhat": null
+        "chatgpt": {
+          "home": 2,
+          "away": 1
+        },
+        "claude": {
+          "home": 2,
+          "away": 1
+        },
+        "gemini": {
+          "home": 2,
+          "away": 1
+        },
+        "ferhat": {
+          "home": 3,
+          "away": 1
+        }
       },
       "kickoff_tr": "28 Haz 00:00",
       "fd_id": 537414
     }
-  ]
+  ],
+  "models": {
+    "claude": "claude-sonnet-4-6",
+    "chatgpt": "gpt-4o",
+    "gemini": "gemini-2.5-flash"
+  }
 }
