@@ -4,8 +4,10 @@ name: KupAI günlük güncelleme
 # Sadece football-data.org çağrısı yapar (tek istek) — LLM harcaması YOK.
 on:
   schedule:
-    # UTC. ~09:00 / 17:00 / 23:00 TR — gün boyu biten maçları yakalar.
-    - cron: "0 6,14,20 * * *"
+    # Saatler UTC. (TR = UTC+3)
+    - cron: "0 6,14,20 * * *"   # 09:00 / 17:00 / 23:00 TR — gün içi biten maçlar
+    - cron: "30 21 * * *"       # 00:30 TR — gece yarısı biten maçları aynı gece yakalar
+    - cron: "30 22 * * *"       # 01:30 TR — yedek geçiş
   workflow_dispatch: {}   # elle de tetiklenebilir
 
 permissions:
