@@ -190,8 +190,11 @@
       "home_en": "Canada",
       "away_en": "Bosnia and Herzegovina",
       "kickoff": "2026-06-12T19:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
