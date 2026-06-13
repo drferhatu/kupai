@@ -225,8 +225,11 @@
       "home_en": "Qatar",
       "away_en": "Switzerland",
       "kickoff": "2026-06-13T19:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
