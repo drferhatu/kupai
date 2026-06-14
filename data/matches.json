@@ -784,8 +784,11 @@
       "home_en": "Germany",
       "away_en": "Curaçao",
       "kickoff": "2026-06-14T17:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 7,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 4,
@@ -976,8 +979,11 @@
       "home_en": "Netherlands",
       "away_en": "Japan",
       "kickoff": "2026-06-14T20:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 2
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
