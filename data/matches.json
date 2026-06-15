@@ -819,7 +819,7 @@
       "home_en": "Côte d'Ivoire",
       "away_en": "Ecuador",
       "kickoff": "2026-06-14T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "result": null,
       "predictions": {
         "chatgpt": {
@@ -1014,8 +1014,11 @@
       "home_en": "Sweden",
       "away_en": "Tunisia",
       "kickoff": "2026-06-15T02:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 5,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
