@@ -1180,8 +1180,11 @@
       "home_en": "Belgium",
       "away_en": "Egypt",
       "kickoff": "2026-06-15T19:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
@@ -1372,8 +1375,11 @@
       "home_en": "Spain",
       "away_en": "Cabo Verde",
       "kickoff": "2026-06-15T16:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 3,
@@ -1404,7 +1410,7 @@
       "home_en": "Saudi Arabia",
       "away_en": "Uruguay",
       "kickoff": "2026-06-15T22:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "result": null,
       "predictions": {
         "chatgpt": {
