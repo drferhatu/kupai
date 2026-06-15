@@ -819,8 +819,11 @@
       "home_en": "Côte d'Ivoire",
       "away_en": "Ecuador",
       "kickoff": "2026-06-14T23:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
