@@ -1215,8 +1215,11 @@
       "home_en": "IR Iran",
       "away_en": "New Zealand",
       "kickoff": "2026-06-16T01:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 2
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -1410,8 +1413,11 @@
       "home_en": "Saudi Arabia",
       "away_en": "Uruguay",
       "kickoff": "2026-06-15T22:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
