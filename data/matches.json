@@ -1809,8 +1809,11 @@
       "home_en": "Austria",
       "away_en": "Jordan",
       "kickoff": "2026-06-17T04:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 3,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
