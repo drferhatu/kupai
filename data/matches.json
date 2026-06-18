@@ -62,8 +62,11 @@
       "home_en": "Czechia",
       "away_en": "South Africa",
       "kickoff": "2026-06-18T16:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
@@ -260,8 +263,11 @@
       "home_en": "Switzerland",
       "away_en": "Bosnia and Herzegovina",
       "kickoff": "2026-06-18T19:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 4,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
@@ -292,7 +298,7 @@
       "home_en": "Canada",
       "away_en": "Qatar",
       "kickoff": "2026-06-18T22:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "result": null,
       "predictions": {
         "chatgpt": {
