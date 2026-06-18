@@ -2205,11 +2205,8 @@
       "home_en": "Ghana",
       "away_en": "Panama",
       "kickoff": "2026-06-17T23:00:00Z",
-      "status": "finished",
-      "result": {
-        "home": 1,
-        "away": 0
-      },
+      "status": "live",
+      "result": null,
       "predictions": {
         "chatgpt": {
           "home": 2,
