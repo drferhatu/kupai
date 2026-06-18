@@ -2007,8 +2007,11 @@
       "home_en": "Uzbekistan",
       "away_en": "Colombia",
       "kickoff": "2026-06-18T02:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 3
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -2202,8 +2205,11 @@
       "home_en": "Ghana",
       "away_en": "Panama",
       "kickoff": "2026-06-17T23:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
