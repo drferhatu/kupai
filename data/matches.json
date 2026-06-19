@@ -470,7 +470,7 @@
       "home_en": "Scotland",
       "away_en": "Morocco",
       "kickoff": "2026-06-19T22:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "result": null,
       "predictions": {
         "chatgpt": {
@@ -668,8 +668,11 @@
       "home_en": "USA",
       "away_en": "Australia",
       "kickoff": "2026-06-19T19:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
