@@ -97,8 +97,11 @@
       "home_en": "Mexico",
       "away_en": "Korea Republic",
       "kickoff": "2026-06-19T01:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
@@ -298,8 +301,11 @@
       "home_en": "Canada",
       "away_en": "Qatar",
       "kickoff": "2026-06-18T22:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 6,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
