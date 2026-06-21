@@ -1117,8 +1117,11 @@
       "home_en": "Tunisia",
       "away_en": "Japan",
       "kickoff": "2026-06-21T04:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 0,
+        "away": 4
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
