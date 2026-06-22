@@ -1694,7 +1694,7 @@
       "home_en": "France",
       "away_en": "Iraq",
       "kickoff": "2026-06-22T21:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "result": null,
       "predictions": {
         "chatgpt": {
@@ -1892,8 +1892,11 @@
       "home_en": "Argentina",
       "away_en": "Austria",
       "kickoff": "2026-06-22T17:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 3,
