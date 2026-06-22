@@ -1321,8 +1321,11 @@
       "home_en": "New Zealand",
       "away_en": "Egypt",
       "kickoff": "2026-06-22T01:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 3
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -1522,8 +1525,11 @@
       "home_en": "Uruguay",
       "away_en": "Cabo Verde",
       "kickoff": "2026-06-21T22:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 2
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
