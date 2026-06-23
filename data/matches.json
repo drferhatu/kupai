@@ -2102,8 +2102,11 @@
       "home_en": "Portugal",
       "away_en": "Uzbekistan",
       "kickoff": "2026-06-23T17:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 5,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 3,
@@ -2300,8 +2303,11 @@
       "home_en": "England",
       "away_en": "Ghana",
       "kickoff": "2026-06-23T20:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
