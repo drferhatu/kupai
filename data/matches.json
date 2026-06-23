@@ -1694,8 +1694,11 @@
       "home_en": "France",
       "away_en": "Iraq",
       "kickoff": "2026-06-22T21:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 3,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 3,
@@ -1726,8 +1729,11 @@
       "home_en": "Norway",
       "away_en": "Senegal",
       "kickoff": "2026-06-23T00:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 3,
+        "away": 2
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -1927,7 +1933,7 @@
       "home_en": "Jordan",
       "away_en": "Algeria",
       "kickoff": "2026-06-23T03:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "result": null,
       "predictions": {
         "chatgpt": {
