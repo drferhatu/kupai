@@ -1933,8 +1933,11 @@
       "home_en": "Jordan",
       "away_en": "Algeria",
       "kickoff": "2026-06-23T03:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 2
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
