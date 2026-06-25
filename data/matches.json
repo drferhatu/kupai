@@ -132,8 +132,11 @@
       "home_en": "Czechia",
       "away_en": "Mexico",
       "kickoff": "2026-06-25T01:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 0,
+        "away": 3
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -164,8 +167,11 @@
       "home_en": "South Africa",
       "away_en": "Korea Republic",
       "kickoff": "2026-06-25T01:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -546,8 +552,11 @@
       "home_en": "Scotland",
       "away_en": "Brazil",
       "kickoff": "2026-06-24T22:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 0,
+        "away": 3
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -578,8 +587,11 @@
       "home_en": "Morocco",
       "away_en": "Haiti",
       "kickoff": "2026-06-24T22:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 4,
+        "away": 2
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
