@@ -1800,8 +1800,11 @@
       "home_en": "Norway",
       "away_en": "France",
       "kickoff": "2026-06-26T19:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 4
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -1832,8 +1835,11 @@
       "home_en": "Senegal",
       "away_en": "Iraq",
       "kickoff": "2026-06-26T19:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 5,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
