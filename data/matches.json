@@ -132,11 +132,8 @@
       "home_en": "Czechia",
       "away_en": "Mexico",
       "kickoff": "2026-06-25T01:00:00Z",
-      "status": "finished",
-      "result": {
-        "home": 0,
-        "away": 3
-      },
+      "status": "scheduled",
+      "result": null,
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -167,11 +164,8 @@
       "home_en": "South Africa",
       "away_en": "Korea Republic",
       "kickoff": "2026-06-25T01:00:00Z",
-      "status": "finished",
-      "result": {
-        "home": 1,
-        "away": 0
-      },
+      "status": "scheduled",
+      "result": null,
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -972,11 +966,8 @@
       "home_en": "Curaçao",
       "away_en": "Côte d'Ivoire",
       "kickoff": "2026-06-25T20:00:00Z",
-      "status": "finished",
-      "result": {
-        "home": 0,
-        "away": 2
-      },
+      "status": "scheduled",
+      "result": null,
       "predictions": {
         "chatgpt": {
           "home": 0,
@@ -1007,11 +998,8 @@
       "home_en": "Ecuador",
       "away_en": "Germany",
       "kickoff": "2026-06-25T20:00:00Z",
-      "status": "finished",
-      "result": {
-        "home": 2,
-        "away": 1
-      },
+      "status": "scheduled",
+      "result": null,
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -1182,11 +1170,8 @@
       "home_en": "Japan",
       "away_en": "Sweden",
       "kickoff": "2026-06-25T23:00:00Z",
-      "status": "finished",
-      "result": {
-        "home": 1,
-        "away": 1
-      },
+      "status": "scheduled",
+      "result": null,
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -1217,11 +1202,8 @@
       "home_en": "Tunisia",
       "away_en": "Netherlands",
       "kickoff": "2026-06-25T23:00:00Z",
-      "status": "finished",
-      "result": {
-        "home": 1,
-        "away": 3
-      },
+      "status": "scheduled",
+      "result": null,
       "predictions": {
         "chatgpt": {
           "home": 1,
