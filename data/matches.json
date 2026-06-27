@@ -1392,8 +1392,11 @@
       "home_en": "Egypt",
       "away_en": "IR Iran",
       "kickoff": "2026-06-27T03:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -1424,8 +1427,11 @@
       "home_en": "New Zealand",
       "away_en": "Belgium",
       "kickoff": "2026-06-27T03:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 5
+      },
       "predictions": {
         "chatgpt": {
           "home": 0,
