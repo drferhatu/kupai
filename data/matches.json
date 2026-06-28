@@ -2022,8 +2022,11 @@
       "home_en": "Algeria",
       "away_en": "Austria",
       "kickoff": "2026-06-28T02:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 3,
+        "away": 3
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -2054,8 +2057,11 @@
       "home_en": "Jordan",
       "away_en": "Argentina",
       "kickoff": "2026-06-28T02:00:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 1,
+        "away": 3
+      },
       "predictions": {
         "chatgpt": {
           "home": 0,
@@ -2226,8 +2232,11 @@
       "home_en": "Colombia",
       "away_en": "Portugal",
       "kickoff": "2026-06-27T23:30:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -2258,8 +2267,11 @@
       "home_en": "DR Congo",
       "away_en": "Uzbekistan",
       "kickoff": "2026-06-27T23:30:00Z",
-      "status": "scheduled",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 3,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 1,
@@ -2430,8 +2442,11 @@
       "home_en": "Panama",
       "away_en": "England",
       "kickoff": "2026-06-27T21:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 0,
+        "away": 2
+      },
       "predictions": {
         "chatgpt": {
           "home": 0,
@@ -2462,8 +2477,11 @@
       "home_en": "Croatia",
       "away_en": "Ghana",
       "kickoff": "2026-06-27T21:00:00Z",
-      "status": "live",
-      "result": null,
+      "status": "finished",
+      "result": {
+        "home": 2,
+        "away": 1
+      },
       "predictions": {
         "chatgpt": {
           "home": 2,
